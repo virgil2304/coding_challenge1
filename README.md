@@ -15,7 +15,7 @@ http://jquery.eisbehr.de/lazy/ etc.
 “Load more” button – Develop your own AJAX methodology to
 achieve this.
 
-### BBONUS
+### BONUS
 - Quality code
 - Follow any coding standards (We recommend PS2)
 - MVC approach
