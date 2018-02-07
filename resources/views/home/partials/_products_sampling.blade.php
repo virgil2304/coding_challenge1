@@ -1,6 +1,6 @@
 <?php foreach ($products as $i => $product){ ?>
 
-<div class="col-lg-3 col-md-6 mb-4">
+<div class="col-lg-3 col-md-6 mb-4" style="float: left;">
     <div class="card">
         <img class="card-img-top" src="{{ asset('images/products/' . $product->images()->first()->link)}}" alt="{{ $product->name }}">
         <div class="card-body">
