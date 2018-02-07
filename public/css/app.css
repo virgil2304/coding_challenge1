@@ -1,6 +1,8 @@
-.jscroll-inner, jscroll-added {
+.jscroll-added{
     width: 100%;
-    box-sizing: border-box;
+}
+
+.jscroll-inner {
     display: flex;
     flex-wrap: wrap;
 }

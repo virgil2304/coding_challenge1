@@ -1,9 +1,8 @@
-<div style="clear: both"></div>
-<?php foreach ($products as $i => $product){ //dd($products->currentPage()); ?>
+<?php foreach ($products as $i => $product){ ?>
 
 <div class="col-lg-3 col-md-6 mb-4">
     <div class="card">
-        <img class="card-img-top" src="{{asset('images/products/' . $product->images()->first()->link)}}" alt="">
+        <img class="card-img-top" src="{{ asset('images/products/' . $product->images()->first()->link)}}" alt="{{ $product->name }}">
         <div class="card-body">
             <h4 class="card-title">{{ $product->name }}</h4>
             <p class="card-text">£{{ $product->price }}</p>
